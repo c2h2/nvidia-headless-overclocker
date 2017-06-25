@@ -1,8 +1,9 @@
 #!/bin/bash
 
 
-#sudo service lightdm start
+#modify $DISPLAY to something else, or kill xorg11, lightdm, and use with_xinit script.
 export DISPLAY=:0.0
+
 
 #headless mode 
 
