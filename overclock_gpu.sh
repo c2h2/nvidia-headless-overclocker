@@ -33,3 +33,7 @@ nvidia-settings -a '[gpu:3]/GPUMemoryTransferRateOffset[3]=900'
 #nvidia-settings -a '[fan:3]/GPUTargetFanSpeed=60'
 
 nvidia-settings -q all | grep clock
+
+#disable the script to exit, for some reasons the clock is not kept after exiting this script.
+xterm
+xclock 
